@@ -83,3 +83,120 @@ header button{
     border-radius: 2px;
     font-size: 13px;
 }
+
+header button:active {
+    box-shadow: inset 0 2px 0 rgb(0 0 0 / 15%);
+    background: -webkit-linear-gradient(top,#3c7ae4,#3f76d3);
+}
+
+/* Body styles */
+.search-area {
+    display: flex;
+    justify-content: center;
+
+}
+
+.search-area img {
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+}
+
+.hero-logo {
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    content: '';
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    /* z-index: 3; */
+    height: 46px;
+    cursor: text;
+    width: 584px;
+    padding-top: 5px;
+    margin-top: 27px;
+}
+
+.search-bar:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.speech-search {
+    cursor: pointer;
+}
+
+.magn-glass {
+    cursor: default;
+}
+
+.magn-glass {
+    width: 20px;
+    height: auto;
+    margin: 0 14px;
+}
+
+.speech-search {
+    width: 24px;
+    height: auto;
+    margin: 0 15px;
+}
+
+.search-buttons {
+    width: 584px;
+    height: 70px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 5px;
+    padding: 0 17px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.search-buttons button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+#lang-offer {
+    line-height: 28px;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 19px;
+}
+
+
+#lang-offer a {
+    color: #1a0dab;
+    text-decoration: none;
+    padding: 0 3px;
+}
+
+/* Footer styles */
+
