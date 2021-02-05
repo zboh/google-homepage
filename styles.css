@@ -252,6 +252,10 @@ footer a {
     font-size: 14px;
 }
 
+footer a:hover {
+    text-decoration: underline;
+}
+
 footer ul {
     padding-left: 3px;
     padding-right: 30px;
